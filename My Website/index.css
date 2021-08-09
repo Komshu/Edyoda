@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+#body{
+    background-color: #F2F6FF;
+    margin: 0%;
+}
+
+#header{
+    background-color: #FFFFFF;
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap:inherit;
+    align-content:unset
+    justify-content:
+}
+
+#logo{
+    display:flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content:space-between;
+
+}
+
+#categories{
+
+}
+
+#edyoda{
+    Width: 130px;
+    font-size: 32px;
+    color: #0084ff;
+}
+
+#stories{
+    Margin: 0;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-style: Italic
+}

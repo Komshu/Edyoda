@@ -1,0 +1,128 @@
+#body{
+    margin: auto;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 50px;
+    align-items: center;
+}
+
+.tab{
+    margin: auto;
+    padding: 30px;
+    color: #C5C3C3;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.tab:hover{
+    color: black;
+    text-decoration: underline #8071D0 4px;
+    cursor: pointer;
+}
+
+#button-1{
+    width:150px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #A389CC;
+    background-color: #FFD8DB;
+    border: none;
+    border-radius: 25px;
+    margin-right: 200px;
+    cursor: pointer;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 20px 100px;
+}
+
+#heading-1{
+    font-weight: 900;
+    font-size: 60px;
+    color: black;
+    display: inline;
+}
+
+#full-stop{
+    width: 15px;
+    height: 15px;
+    background-color: #5243C0;
+    border: none;
+    margin-left: 10px;
+}
+
+#paragraph{
+    font-weight: 500;
+    color: black;
+}
+
+#button-2{
+    width:150px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #5243C0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    background-color: #F6F6F6;
+    box-shadow: 5px 5px 6px rgb(233, 231, 231);
+    border-radius: 10px;
+    width: 350px;
+    border: none;
+}
+
+.cards:hover{
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #c9c8c8;
+}
+
+.check-icon{
+    color: #c9c8c8;
+    font-size: 25px;
+    background-color: transparent;
+    border: #c9c8c8 3px solid;
+    border-radius: 50%;
+}
+
+.check-icon:hover{
+    background-color: #5243C0;
+    border: #5243C0 4px solid;
+    border-radius: 50%;
+    animation:ease-out;
+}
+
+
+.card-toogle{
+    width: 20px;
+    height: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FFE4A0;
+}
