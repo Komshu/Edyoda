@@ -1,0 +1,115 @@
+#body{
+    margin: 0px;
+    background-color: #f6f7fb;
+    font-family: "Poppins",sans-serif;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 48px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+}
+
+
+.topbar_leftmenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar_logo_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 36px;
+}
+
+#logo{
+    width: 24px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+.topbar_brandname{
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,.8);
+}
+
+.topbar_menu_item{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+}
+
+.app_main_container{
+    display: block;
+    margin-top: 100px;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 32px;
+    box-sizing: border-box;
+    box-shadow: 0 0 6px #ccc;
+}
+
+#signin_heading{
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 0 24px;
+}
+
+.login_inputfield{
+    width: 100%;
+    padding-top: 16px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.login_submitbotton{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 14px 36px;
+    width: 436.007px;
+    height: 50.2083px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
